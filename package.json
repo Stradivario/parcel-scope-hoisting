@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "parcel start ./src/index.html --public-url=/flags",
+    "build": "parcel build ./src/index.html --public-url=/flags --experimental-scope-hoisting",
+    "fix": "cp -rf ./fix/* ./node_modules/@rxdi/lit-html/dist/lit-html/lib && npm run build"
+  },
+  "dependencies": {
+    "@rxdi/core": "0.6.7",
+    "@rxdi/lit-html": "0.6.7",
+    "rxjs": "6.5.2",
+    "@webcomponents/webcomponentsjs": "1.2.4",
+    "@babel/polyfill": "7.0.0"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "devDependencies": {
+    "typescript": "3.5.2"
+  }
+}
