@@ -7,14 +7,16 @@
   "dependencies": {
     "@rxdi/core": "0.6.7",
     "@rxdi/lit-html": "0.6.7",
-    "rxjs": "6.5.2",
+    "@rxdi/router": "^0.6.13",
     "@webcomponents/webcomponentsjs": "1.2.4",
-    "@babel/polyfill": "7.0.0"
+    "rxjs": "6.5.2",
+    "@babel/core": "^7.4.5",
+    "core-js": "^2.6.5"
   },
   "browserslist": [
     "last 1 chrome versions"
   ],
   "devDependencies": {
-    "typescript": "3.5.2"
+    "typescript": "^3.5.2"
   }
 }
